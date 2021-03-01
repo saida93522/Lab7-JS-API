@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Internation Space Station</title>
+  </head>
+  <body>
+    <h1>Where is the International Space Station?</h1>
+    <p>This page will update every 10 seconds</p>
+    <p id="time"></p>
+    <div>
+      <p>ISS Latitude: <span id="iss-lat"></span></p>
+      <p>ISS Longitude: <span id="iss-long"></span></p>
+    </div>
+    <!-- Map -->
+    <div id="iss-map"></div>
+    <p>Icon iss by Viktor Korobkov from the Noun Project</p>
+
+    <script async defer src="js.js"></script>
+  </body>
+</html>
